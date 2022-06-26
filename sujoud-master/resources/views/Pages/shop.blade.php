@@ -79,17 +79,16 @@
 						<div class="row">
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
-									<div class="shop-one__image">
+									<div class="shop-one__image" style="background-color:#304332">
 										<span class="shop-one__sale">sale</span><!-- /.shop-one__sale -->
-										<img src="assets/images/update-14-09-2021/shop/shop-1-1.png" alt="">
+										<img src="assets/images/update-14-09-2021/shop/shop1.jpg" height="328px" alt="">
 										<a class="shop-one__cart" href="cart.html"><i
 												class=" icon-shopping-cart"></i></a>
 									</div><!-- /.shop-one__image -->
 									<div class="shop-one__content text-center">
-										<h3 class="shop-one__title"><a href="product-details.html">Brown
-												Bread</a>
+										<h3 class="shop-one__title"><a href="/product">Gardening Water Spray</a>
 										</h3>
-										<p class="shop-one__price">$23.00</p><!-- /.shop-one__price -->
+										<p class="shop-one__price">$238.00</p><!-- /.shop-one__price -->
 										<div class="shop-one__rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -102,16 +101,16 @@
 							</div><!-- /.col-md-6 col-lg-3 -->
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
-									<div class="shop-one__image">
+									<div class="shop-one__image" style="background-color:#304332">
 
-										<img src="assets/images/update-14-09-2021/shop/shop-1-2.png" alt="">
+										<img src="assets/images/update-14-09-2021/shop/shop2.jpg" height="328px" alt="">
 										<a class="shop-one__cart" href="cart.html"><i
 												class=" icon-shopping-cart"></i></a>
 									</div><!-- /.shop-one__image -->
 									<div class="shop-one__content text-center">
-										<h3 class="shop-one__title"><a href="product-details.html">Red Onion</a>
+										<h3 class="shop-one__title"><a href="/product">Flextools Gardening Trowel</a>
 										</h3>
-										<p class="shop-one__price">$33.00</p><!-- /.shop-one__price -->
+										<p class="shop-one__price">$659.00</p><!-- /.shop-one__price -->
 										<div class="shop-one__rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -124,16 +123,16 @@
 							</div><!-- /.col-md-6 col-lg-3 -->
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
-									<div class="shop-one__image">
+									<div class="shop-one__image" style="background-color:#304332">
 
-										<img src="assets/images/update-14-09-2021/shop/shop-1-3.png" alt="">
+										<img src="assets/images/update-14-09-2021/shop/shop3.jpg" height="328px" alt="">
 										<a class="shop-one__cart" href="cart.html"><i
 												class=" icon-shopping-cart"></i></a>
 									</div><!-- /.shop-one__image -->
 									<div class="shop-one__content text-center">
-										<h3 class="shop-one__title"><a href="product-details.html">Broccoli</a>
+										<h3 class="shop-one__title"><a href="/product">Gardening Hand Gloves</a>
 										</h3>
-										<p class="shop-one__price">$18.00</p><!-- /.shop-one__price -->
+										<p class="shop-one__price">$180.00</p><!-- /.shop-one__price -->
 										<div class="shop-one__rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -146,17 +145,16 @@
 							</div><!-- /.col-md-6 col-lg-3 -->
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
-									<div class="shop-one__image">
+									<div class="shop-one__image" style="background-color:#304332">
 
-										<img src="assets/images/update-14-09-2021/shop/shop-1-4.png" alt="">
+										<img src="assets/images/update-14-09-2021/shop/shop4.jpg" height="328px" alt="">
 										<a class="shop-one__cart" href="cart.html"><i
 												class=" icon-shopping-cart"></i></a>
 									</div><!-- /.shop-one__image -->
 									<div class="shop-one__content text-center">
-										<h3 class="shop-one__title"><a href="product-details.html">Fresh
-												Potato</a>
+										<h3 class="shop-one__title"><a href="/product">Cultivator</a>
 										</h3>
-										<p class="shop-one__price">$16.00</p><!-- /.shop-one__price -->
+										<p class="shop-one__price">$1000.00</p><!-- /.shop-one__price -->
 										<div class="shop-one__rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -169,16 +167,16 @@
 							</div><!-- /.col-md-6 col-lg-3 -->
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
-									<div class="shop-one__image">
+									<div class="shop-one__image" style="background-color:#304332">
 
-										<img src="assets/images/update-14-09-2021/shop/shop-1-5.png" alt="">
+										<img src="assets/images/update-14-09-2021/shop/shop5.jpg" height="328px" alt="">
 										<a class="shop-one__cart" href="cart.html"><i
 												class=" icon-shopping-cart"></i></a>
 									</div><!-- /.shop-one__image -->
 									<div class="shop-one__content text-center">
-										<h3 class="shop-one__title"><a href="product-details.html">Tomatos</a>
+										<h3 class="shop-one__title"><a href="/product">Electronic Saw</a>
 										</h3>
-										<p class="shop-one__price">$26.00</p><!-- /.shop-one__price -->
+										<p class="shop-one__price">$300.00</p><!-- /.shop-one__price -->
 										<div class="shop-one__rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -191,16 +189,16 @@
 							</div><!-- /.col-md-6 col-lg-3 -->
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
-									<div class="shop-one__image">
+									<div class="shop-one__image" style="background-color:#304332">
 
-										<img src="assets/images/update-14-09-2021/shop/shop-1-6.png" alt="">
+										<img src="assets/images/update-14-09-2021/shop/shop6.jpg" height="328px" alt="">
 										<a class="shop-one__cart" href="cart.html"><i
 												class=" icon-shopping-cart"></i></a>
 									</div><!-- /.shop-one__image -->
 									<div class="shop-one__content text-center">
-										<h3 class="shop-one__title"><a href="product-details.html">Lemons</a>
+										<h3 class="shop-one__title"><a href="/product">strawberry seedlings</a>
 										</h3>
-										<p class="shop-one__price">$19.00</p><!-- /.shop-one__price -->
+										<p class="shop-one__price">$50.00</p><!-- /.shop-one__price -->
 										<div class="shop-one__rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -213,17 +211,16 @@
 							</div><!-- /.col-md-6 col-lg-3 -->
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
-									<div class="shop-one__image">
+									<div class="shop-one__image" style="background-color:#304332">
 										<span class="shop-one__sale">sale</span><!-- /.shop-one__sale -->
-										<img src="assets/images/update-14-09-2021/shop/shop-1-7.png" alt="">
+										<img src="assets/images/update-14-09-2021/shop/shop7.jpg" height="328px" alt="">
 										<a class="shop-one__cart" href="cart.html"><i
 												class=" icon-shopping-cart"></i></a>
 									</div><!-- /.shop-one__image -->
 									<div class="shop-one__content text-center">
-										<h3 class="shop-one__title"><a href="product-details.html">Red
-												Chillis</a>
+										<h3 class="shop-one__title"><a href="/product">Eselar Tool Set</a>
 										</h3>
-										<p class="shop-one__price">$9.00</p><!-- /.shop-one__price -->
+										<p class="shop-one__price">$289.00</p><!-- /.shop-one__price -->
 										<div class="shop-one__rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -236,15 +233,15 @@
 							</div><!-- /.col-md-6 col-lg-3 -->
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
-									<div class="shop-one__image">
-										<img src="assets/images/update-14-09-2021/shop/shop-1-8.png" alt="">
+									<div class="shop-one__image" style="background-color:#304332">
+										<img src="assets/images/update-14-09-2021/shop/shop8.jpg" height="328px" alt="">
 										<a class="shop-one__cart" href="cart.html"><i
 												class=" icon-shopping-cart"></i></a>
 									</div><!-- /.shop-one__image -->
 									<div class="shop-one__content text-center">
-										<h3 class="shop-one__title"><a href="product-details.html">Carrots</a>
+										<h3 class="shop-one__title"><a href="/product">Harvester </a>
 										</h3>
-										<p class="shop-one__price">$8.00</p><!-- /.shop-one__price -->
+										<p class="shop-one__price">$20000</p><!-- /.shop-one__price -->
 										<div class="shop-one__rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -256,18 +253,17 @@
 								</div><!-- /.shop-one__item -->
 							</div><!-- /.col-md-6 col-lg-3 -->
 							<div class="col-md-6 col-lg-4">
-								<div class="shop-one__item">
-									<div class="shop-one__image">
+								<div class="shop-one__item" >
+									<div class="shop-one__image" style="background-color:#304332">
 										<span class="shop-one__sale">sale</span><!-- /.shop-one__sale -->
-										<img src="assets/images/update-14-09-2021/shop/shop-1-1.png" alt="">
+										<img src="assets/images/update-14-09-2021/shop/shop9.jpg" height="328px" alt="">
 										<a class="shop-one__cart" href="cart.html"><i
 												class=" icon-shopping-cart"></i></a>
 									</div><!-- /.shop-one__image -->
 									<div class="shop-one__content text-center">
-										<h3 class="shop-one__title"><a href="product-details.html">Brown
-												Bread</a>
+										<h3 class="shop-one__title"><a href="/product">Tractor Spraying Pesticides</a>
 										</h3>
-										<p class="shop-one__price">$23.00</p><!-- /.shop-one__price -->
+										<p class="shop-one__price">$100000.00</p><!-- /.shop-one__price -->
 										<div class="shop-one__rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>

@@ -2,7 +2,7 @@
 
 @section('content')
 
-	
+
 
 		<!--Page Header Start-->
 		<section class="page-header clearfix"
@@ -104,7 +104,7 @@
 						</ul><!-- /.list-unstyled proceed-to-checkout__list -->
 						<div class="proceed-to-checkout__buttons">
 							<a href="cart.html" class="thm-btn proceed-to-checkout__checkout-btn">Update</a>
-							<a href="checkout.html" class="thm-btn ">Checkout</a>
+							<a href="/checkout" class="thm-btn ">Checkout</a>
 						</div><!-- /.proceed-to-checkout__buttons -->
 					</div><!-- /.col-lg-4 -->
 				</div><!-- /.row -->

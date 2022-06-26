@@ -12,8 +12,7 @@
                                     <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.1s">
                                         <div class="footer-widget__column footer-widget__about">
                                             <div class="footer-widget__about-logo">
-                                                <a href="index-main.html"><img src="assets/images/resources/footer-logo.png"
-                                                        alt=""></a>
+                                                <a href="index-main.html"><img src="assets/images/resources/falahW.png" width="115px" height="54" alt=""></a>
                                             </div>
                                             <p class="footer-widget__about-text">Lorem ipsum dolor sit amet consect etur
                                                 adi pisicing elit sed.</p>

@@ -2,7 +2,7 @@
 @php $title = "Register"; @endphp
 @section('title', $title)
 @section('content')
-<img style='width: 100%; height:100vh; position:absolute;' src="https://homeophyto.topsante.com/wp-content/uploads/homeophyto/2017/01/stress.homeophyto-750x410.jpg" alt="">
+<img style='width: 100%; position:absolute; ' src="assets/images/bgimage.jpg" alt="">
     <section class="Login">
         <div class="container mt-5">
             <div class="row justify-content-center">

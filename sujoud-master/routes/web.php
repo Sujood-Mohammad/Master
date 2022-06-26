@@ -35,8 +35,9 @@ Route::get('/cart', function () {
 Route::get('/product', function () {
     return view('Pages.product-details');
 });
-
-
+Route::get('/checkout', function () {
+    return view('Pages.checkout');
+});
 
 
 

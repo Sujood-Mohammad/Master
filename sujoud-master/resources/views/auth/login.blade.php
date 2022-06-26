@@ -1,7 +1,9 @@
 @extends('Layout.master')
+
+@section('content')
 @php $title = "Login"; @endphp
 @section('title', $title)
-@section('content')
+
     <style>
         input[type='checkbox'] {
             outline: 2px solid rgb(111, 134, 105);
@@ -18,7 +20,7 @@
         }
 
     </style>
-    <img style='width: 100%; height:100vh; position:absolute;' src="https://homeophyto.topsante.com/wp-content/uploads/homeophyto/2017/01/stress.homeophyto-750x410.jpg" alt="">
+    <img style='width: 100%; height:90vh; position:absolute; ' src="assets/images/bgimage.jpg" alt="">
     <section class="Login">
         <div class="container mt-5 ">
             <div class="row justify-content-center">

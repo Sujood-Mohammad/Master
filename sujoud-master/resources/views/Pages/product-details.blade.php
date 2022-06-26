@@ -3,7 +3,7 @@
 
 @section('content')
 
-	
+
 		<!--Page Header Start-->
 		<section class="page-header clearfix"
 			style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
@@ -25,15 +25,15 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="product-details__image">
-							<img src="assets/images/update-14-09-2021/shop/shop-d-1-1.png" alt="">
+							<img src="assets/images/update-14-09-2021/shop/shop4.jpg" width="570px" height="614px" alt="">
 						</div><!-- /.product-details__image -->
 					</div><!-- /.col-lg-6 -->
 					<div class="col-lg-6">
 						<div class="product-details__content">
 							<div class="product-details__content__top">
-								<h3 class="product-details__content__name">Brown Bread</h3>
+								<h3 class="product-details__content__name">Cultivator</h3>
 								<!-- /.product-details__content__name -->
-								<div class="product-details__content__price">$23.00</div>
+								<div class="product-details__content__price">$1000.00</div>
 								<!-- /.product-details__content__price -->
 							</div><!-- /.product-details__content__top -->
 							<div class="product-details__content__rating">

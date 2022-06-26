@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Two || Agriox || Responsive HTML5 Template.</title>
+    <title>Falah</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -16,12 +16,7 @@
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com/">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=Shadows+Into+Light&amp;display=swap"
-        rel="stylesheet">
-
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=Shadows+Into+Light&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
@@ -42,17 +37,15 @@
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/agriox.css" />
 
-    <link href="{{ asset('css/login.css') }}" rel="stylesheet">
-
     <!-- RTL CSS -->
     <link rel="stylesheet" href="assets/css/agriox-rtl.css">
-
 
     <!-- mode css -->
     <link rel="stylesheet" id="jssMode" href="assets/css/modes/agriox-light.css">
 
     <!-- toolbar css -->
     <link rel="stylesheet" href="assets/vendors/toolbar/css/toolbar.css">
+    <link href="{{ asset('assets/css/login.css') }}" rel="stylesheet">
 
 </head>
 
@@ -87,8 +80,8 @@
                             <div class="main-header--one__bottom-middel">
                                 <div class="logo">
                                     <a href="index-main.html">
-                                        <img src="assets/images/resources/logo-2.png" alt="" class="light-logo" />
-                                        <img src="assets/images/resources/logo-1.png" class="dark-logo" alt="" />
+                                        <img src="assets/images/resources/falahD.png" width="115px" height="54" alt="" class="light-logo" />
+                                        <img src="assets/images/resources/falahW.png" width="115px" height="54" class="dark-logo" alt="" />
                                     </a>
                                 </div>
                             </div>
@@ -100,8 +93,8 @@
                                     <div class="stricky-one-logo">
                                         <div class="logo">
                                             <a href="index-main.html">
-                                                <img src="assets/images/resources/logo-1.png" class="dark-logo" alt="">
-                                                <img src="assets/images/resources/logo-2.png" class="light-logo" alt="">
+                                                <img src="assets/images/resources/falahD.png" width="115px" height="54" class="dark-logo" alt="">
+                                                <img src="assets/images/resources/falahW.png" width="115px" height="54" class="light-logo" alt="">
                                             </a>
                                         </div>
                                     </div>
