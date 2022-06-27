@@ -5,7 +5,7 @@
 
 @section('content')
 
-        
+
         <!--Page Header Start-->
         <section class="page-header clearfix"
             style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
@@ -37,7 +37,7 @@
                                 <h2 class="sec-title__title">We Sell High-Quality <br>Organic Products</h2>
                             </div>
                             <div class="about-three__content-box-inner">
-                                <h2>We’re Leader in Agriculture Market</h2>
+                                <h2>We’re Leader in Agriculture Company</h2>
                                 <p>There are many variations of passages of available but the majority have suffered
                                     alteration in some form.</p>
 
@@ -212,7 +212,7 @@
                                     <img src="assets/images/resources/sec-title-icon1.png" alt="">
                                 </div>
                                 <span class="sec-title__tagline">Our testimonials</span>
-                                <h2 class="sec-title__title">What They’re <br>Talking About <br> Agriox</h2>
+                                <h2 class="sec-title__title">What They’re <br>Talking About <br> Falah</h2>
                             </div>
                         </div>
                     </div>
@@ -489,7 +489,7 @@
                                     <span class="icon-farm"></span>
                                 </div>
                                 <div class="cta-one__left-title">
-                                    <h2>We’re Leader in Agriculture Market</h2>
+                                    <h2>We’re Leader in Agriculture Company</h2>
                                 </div>
                             </div>
                             <div class="cta-one__right">

@@ -35,8 +35,8 @@
                                     <div class="main-slider-inner text-center">
                                         <div class="main-slider__content">
                                             <span class="main-slider-tagline">We’re producing natural goods</span>
-                                            <h2 class="main-slider__title">Agriculture <span>&</span><br> Organic
-                                                Products</h2>
+                                            <h2 class="main-slider__title">Agricultural Machines<span>&</span><br> Tools
+                                                </h2>
                                         </div>
                                         <div class="main-slider__button-box">
                                             <a href="#" class="thm-btn">Discover more</a>
@@ -59,8 +59,8 @@
                                     <div class="main-slider-inner text-center">
                                         <div class="main-slider__content">
                                             <span class="main-slider-tagline">We’re producing natural goods</span>
-                                            <h2 class="main-slider__title">Agriculture <span>&</span><br> Organic
-                                                Products</h2>
+                                            <h2 class="main-slider__title">Agriculture <span>&</span><br> Plant Seedlings
+                                                </h2>
                                         </div>
                                         <div class="main-slider__button-box">
                                             <a href="#" class="thm-btn">Discover more</a>
@@ -83,8 +83,8 @@
                                     <div class="main-slider-inner text-center">
                                         <div class="main-slider__content">
                                             <span class="main-slider-tagline">We’re producing natural goods</span>
-                                            <h2 class="main-slider__title">Agriculture <span>&</span><br> Organic
-                                                Products</h2>
+                                            <h2 class="main-slider__title"> Gardening Tools <span>&</span><br>
+                                                </h2>
                                         </div>
                                         <div class="main-slider__button-box">
                                             <a href="#" class="thm-btn">Discover more</a>
@@ -145,7 +145,7 @@
                                 <div class="count-box"></div>
                             </div>
                             <div class="features-two__single-title">
-                                <h3><a href="#">Best Farmers</a></h3>
+                                <h3><a href="#">Best Machines</a></h3>
                                 <p>Skilled team of farmers</p>
                             </div>
                         </div>
@@ -213,7 +213,7 @@
         <!--Features One End-->
 
 
-        <!--About Two Start-->
+        {{-- <!--About Two Start-->
         <section class="about-two">
             <div class="about-two__bg"><img src="assets/images/backgrounds/about-v2-bg.png" alt="" /></div>
             <div class="container">
@@ -354,7 +354,7 @@
                 </div>
             </div>
         </section>
-        <!--About Two End-->
+        <!--About Two End--> --}}
 
         <!--Services One Start-->
         <section class="services-one services-one--has-top-bg">
@@ -380,8 +380,8 @@
                                 </div>
                             </div>
                             <div class="services-one__single-content text-center">
-                                <h3><a href="services-details.html">Gardening <br> Tools</a></h3>
-                                <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                                <h3><a href="services-details.html">Gardening Tools</a></h3>
+                                {{-- <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p> --}}
                                 <a href="services-details.html" class="read-more-btn"><span
                                         class="icon-right-arrow-2"></span></a>
                             </div>
@@ -402,8 +402,8 @@
                                 </div>
                             </div>
                             <div class="services-one__single-content text-center">
-                                <h3><a href="services-details.html">Plant <br>Seedlings</a></h3>
-                                <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                                <h3><a href="services-details.html">Plant Seedlings</a></h3>
+                                {{-- <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p> --}}
                                 <a href="services-details.html" class="read-more-btn"><span
                                         class="icon-right-arrow-2"></span></a>
                             </div>
@@ -424,8 +424,8 @@
                                 </div>
                             </div>
                             <div class="services-one__single-content text-center">
-                                <h3><a href="services-details.html">Agricultural <br>Machines</a></h3>
-                                <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                                <h3><a href="services-details.html">Agricultural Machines</a></h3>
+                                {{-- <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p> --}}
                                 <a href="services-details.html" class="read-more-btn"><span
                                         class="icon-right-arrow-2"></span></a>
                             </div>
@@ -508,14 +508,14 @@
                                     <img src="assets/images/resources/sec-title-icon1.png" alt="">
                                 </div>
                                 <span class="sec-title__tagline">Company benefits</span>
-                                <h2 class="sec-title__title">Why Choose Agriox
-                                    Market?</h2>
+                                <h2 class="sec-title__title">Why Choose Falah
+                                    Company?</h2>
                             </div>
                             <ul class="list-unstyled features-three__list">
                                 <li>
                                     <i class="fa fa-check"></i>
                                     <div class="features-three__list__content">
-                                        <h3>Quality Organic Food</h3>
+                                        <h3>Quality Organic Machine</h3>
                                         <p>Solution for small and large businesses volup
                                             accusantium doloremque laudantium.</p>
                                     </div><!-- /.features-three__list__content -->
@@ -904,7 +904,7 @@
         <!--Story One End-->
 
         <!--Meet Farmers One Start-->
-        <section class="meet-farmers-one">
+        {{-- <section class="meet-farmers-one">
             <div class="container">
                 <div class="sec-title text-center">
                     <div class="icon">
@@ -1007,13 +1007,13 @@
                     <!--End Single Meet Farmers One-->
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!--Meet Farmers One End-->
 
 
 
         <!--Video One Start-->
-        <section class="video-one video-one--two jarallax clearfix" data-jarallax data-speed="0.2"
+        {{-- <section class="video-one video-one--two jarallax clearfix" data-jarallax data-speed="0.2"
             data-imgPosition="50% 0%" style="background-image: url(assets/images/backgrounds/video-one-bg.jpg);">
             <div class="video-one-border"></div>
             <div class="video-one-border video-one-border-two"></div>
@@ -1051,7 +1051,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!--Video One End-->
 
 

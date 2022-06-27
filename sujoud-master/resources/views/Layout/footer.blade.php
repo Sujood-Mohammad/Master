@@ -107,7 +107,7 @@
                         <div class="col-xl-12">
                             <div class="footer-one__bottom-inner">
                                 <div class="footer-one__bottom-text">
-                                    <p>&copy; Copyright 2021 by <a href="#">Layerdrops.com</a></p>
+                                    <p>&copy; Copyright 2022 by <a href="#">Falah.com</a></p>
                                 </div>
                                 <div class="footer-one__bottom-social-links">
                                     <ul>
