@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <!-- Mirrored from layerdrops.com/agriox/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Jun 2022 11:17:57 GMT -->
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Falah</title>
+    <title>Sujoud</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -79,7 +78,7 @@
                         <div class="main-header--one__bottom-inner">
                             <div class="main-header--one__bottom-middel">
                                 <div class="logo">
-                                    <a href="index-main.html">
+                                    <a href="/">
                                         <img src="assets/images/resources/falahD.png" width="115px" height="54" alt="" class="light-logo" />
                                         <img src="assets/images/resources/falahW.png" width="115px" height="54" class="dark-logo" alt="" />
                                     </a>
@@ -92,7 +91,7 @@
 
                                     <div class="stricky-one-logo">
                                         <div class="logo">
-                                            <a href="index-main.html">
+                                            <a href="/">
                                                 <img src="assets/images/resources/falahD.png" width="115px" height="54" class="dark-logo" alt="">
                                                 <img src="assets/images/resources/falahW.png" width="115px" height="54" class="light-logo" alt="">
                                             </a>
