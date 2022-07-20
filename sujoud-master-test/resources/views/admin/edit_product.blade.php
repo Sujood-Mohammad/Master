@@ -12,11 +12,18 @@ $pageName = 'Manage Exams';
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                <h4 class="card-title">Edit {{ $exam->exam_name }} Quiz</h4>
+
+                <h4 class="card-title">Edit {{ $products->product_name }} Product</h4>
             </div>
+
+               @if($errors->any())
+    <div class="alert alert-danger text-center" role="alert">
+        {{ $errors->first() }}
+    </div>
+@endif
             <div class="card-content">
                 <div class="card-body">
-                    <form class="form form-vertical" method="POST" action="{{ route('admin.exams.update', $exam->id) }}"
+                    <form class="form form-vertical" method="POST" action="{{ route('admin.products.update', $products->id) }}"
                         enctype="multipart/form-data">
                         @csrf
                         @method('put')
@@ -24,10 +31,10 @@ $pageName = 'Manage Exams';
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <div class="form-group has-icon-left">
-                                        <label for="first-name-icon">Quiz Name</label>
+                                        <label for="first-name-icon">Product Name</label>
                                         <div class="position-relative">
-                                            <input type="text" name="exam_name" class="form-control"
-                                                value="{{ $exam->exam_name }}" placeholder="Name" id="first-name-icon">
+                                            <input type="text" name="product_name" class="form-control"
+                                                value="{{ $products->product_name }}" placeholder="Name" id="first-name-icon">
                                             <div class="form-control-icon">
                                                 <i class="fas fa-book"></i>
                                             </div>
@@ -36,9 +43,9 @@ $pageName = 'Manage Exams';
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <div class="form-group has-icon-left">
-                                        <label for="email-id-icon">Quiz Descreption</label>
+                                        <label for="email-id-icon">Product Descreption</label>
                                         <div class="position-relative">
-                                            <input type="text" name="exam_desc" value="{{ $exam->exam_desc }}"
+                                            <input type="text" name="product_description" value="{{ $products->product_description }}"
                                                 class="form-control" placeholder="Descreption" id="email-id-icon">
                                             <div class="form-control-icon">
                                                 <i class="fas fa-pencil-alt"></i>
@@ -48,18 +55,16 @@ $pageName = 'Manage Exams';
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <div class="form-group has-icon-left">
-                                        <label for="password-id-icon">Number of Questions</label>
+                                        <label for="email-id-icon">Product Price</label>
                                         <div class="position-relative">
-                                            <input type="number" value="{{ $exam->exam_num_qus }}" name="exam_num_qus"
-                                                class="form-control" placeholder="Number of Questions"
-                                                id="password-id-icon">
+                                            <input type="text" name="product_price" value="{{ $products->product_price }}"
+                                                class="form-control" placeholder="Descreption" id="email-id-icon">
                                             <div class="form-control-icon">
-                                                <i class="fas fa-th"></i>
+                                                <i class="fas fa-pencil-alt"></i>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                @php $counter=1; @endphp
+                                {{-- @php $counter=1; @endphp
                                 @foreach ($exam->questions as $item)
                                     <div class="col-12 col-md-6">
                                         <div class="form-group has-icon-left">
@@ -115,15 +120,15 @@ $pageName = 'Manage Exams';
                                     <div
                                         style="height: 10px; background-color:rgba(67,94,190,0.5); width:100%; margin:30px 0">
                                     </div>
-                                @endforeach
+                                @endforeach --}}
                                 <div class="col-12 col-md-6">
                                     <div class="form-group has-icon-left">
                                         <label for="password-id-icon">Image</label>
                                         <div class="position-relative">
                                             <label for="image" style="position: relative;">
-                                                <img src="{{ asset("img/$exam->exam_img") }}" width='100' height="100"
+                                                <img src="{{ asset("img/$products->product_image") }}" width='100' height="100"
                                                     alt="profile_photo" style="cursor: pointer; object-fit:cover;">
-                                                <input type="file" id="image" name="exam_img" class="form-control d-none">
+                                                <input type="file" id="image" name="product_image" class="form-control d-none">
                                                 <img style="position: absolute; cursor: pointer; bottom:-10px; left:70%"
                                                     src="{{ asset('img/plus.png') }}" width="50" height="50" alt="">
                                             </label>

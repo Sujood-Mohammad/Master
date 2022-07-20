@@ -16,19 +16,19 @@ class CategorySeeder extends Seeder
     public function run()
     {
         Category::create([
-            'name' => 'Flaower',
-            'description' => 'awsawsawsaws',
-            'image' => 'hhhhhhhhhh',
+            'name' => 'Gardening Tools',
+            'description' => 'Very God Quality & Nice',
+            'image' => '1658125968-plant.jpg',
         ]);
         Category::create([
-            'name' => 'hathim',
-            'description' => 'hahahah',
-            'image' => 'hhhhhhhhhh',
+            'name' => 'Agricultural ',
+            'description' => 'Very God Quality & Nice',
+            'image' => '1658125947-hathim.jpg',
         ]);
         Category::create([
-            'name' => 'shaifa',
-            'description' => 'aaaaaaaaaaaaaaaa',
-            'image' => 'hhhhhhhhhh',
+            'name' => 'Plant Seedlings',
+            'description' => 'Very God Quality & Nice',
+            'image' => '1658125933-Flaower.jpg',
         ]);
     }
 }

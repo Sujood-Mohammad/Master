@@ -29,7 +29,7 @@ class CategoryController extends Controller
         return view('admin.category_create');
     }
 
-
+ 
 
     /**
      * Store a newly created resource in storage.
@@ -45,10 +45,14 @@ class CategoryController extends Controller
             'image' => 'mimes:jpg,png,jpeg|max:5048|required'
         ]);
 
+        $newImageName = time() . '-' . $request->name . '.' . $request->image->extension();
+        $request->image->move(public_path('img'), $newImageName);
+
         $category = Category::create([
             'name' => $request->input('name'),
             'description' => $request->input('description'),
-            'image' => $request->input('image'),
+            // 'image' => $request->input('image'),
+            'image' => $newImageName,
         ]);
         return redirect('admin/categories')->with('success', 'Added successfully');
     }
@@ -60,7 +64,7 @@ class CategoryController extends Controller
      */
     public function show(Category $category)
     {
-        //
+       //
     }
 
     /**
@@ -91,11 +95,14 @@ class CategoryController extends Controller
             'image' => 'mimes:jpg,png,jpeg|max:5048|required'
         ]);
 
+        $newImageName = time() . '-' . $request->name . '.' . $request->image->extension();
+        $request->image->move(public_path('img'), $newImageName);
+
         $Category = Category::where('id', $id)
             ->update([
             'name' => $request->input('name'),
             'description' => $request->input('description'),
-            'image' => $request->input('image'),
+            'image' => $newImageName,
             ]);
         return redirect('admin/categories')->with('success', 'Updated successfully');
     }

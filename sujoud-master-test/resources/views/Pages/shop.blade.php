@@ -77,18 +77,21 @@
 							</div><!-- /.col-lg-12 -->
 						</div><!-- /.row -->
 						<div class="row">
+                             @foreach($products as $values)
+
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
 									<div class="shop-one__image" style="background-color:#304332">
 										<span class="shop-one__sale">sale</span><!-- /.shop-one__sale -->
-										<img src="assets/images/update-14-09-2021/shop/shop1.jpg" height="328px" alt="">
+										<img src="{{ asset('img/'.$values->product_image)}}" height="328px" alt="">
 										<a class="shop-one__cart" href="cart.html"><i
 												class=" icon-shopping-cart"></i></a>
 									</div><!-- /.shop-one__image -->
 									<div class="shop-one__content text-center">
-										<h3 class="shop-one__title"><a href="/product">Gardening Water Spray</a>
+										<h3 class="shop-one__title"><a href="/product">{{$values->product_name}}</a>
 										</h3>
-										<p class="shop-one__price">$238.00</p><!-- /.shop-one__price -->
+                                        <p>{{$values->product_description}}</p>
+										<p class="shop-one__price">{{$values->product_price}}</p><!-- /.shop-one__price -->
 										<div class="shop-one__rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -98,8 +101,10 @@
 										</div><!-- /.shop-one__rating -->
 									</div><!-- /.shop-one__content -->
 								</div><!-- /.shop-one__item -->
-							</div><!-- /.col-md-6 col-lg-3 -->
-							<div class="col-md-6 col-lg-4">
+
+							</div>
+                            @endforeach
+							{{-- <div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
 									<div class="shop-one__image" style="background-color:#304332">
 
@@ -120,7 +125,7 @@
 										</div><!-- /.shop-one__rating -->
 									</div><!-- /.shop-one__content -->
 								</div><!-- /.shop-one__item -->
-							</div><!-- /.col-md-6 col-lg-3 -->
+							</div>
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
 									<div class="shop-one__image" style="background-color:#304332">
@@ -142,7 +147,7 @@
 										</div><!-- /.shop-one__rating -->
 									</div><!-- /.shop-one__content -->
 								</div><!-- /.shop-one__item -->
-							</div><!-- /.col-md-6 col-lg-3 -->
+							</div>
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
 									<div class="shop-one__image" style="background-color:#304332">
@@ -164,7 +169,7 @@
 										</div><!-- /.shop-one__rating -->
 									</div><!-- /.shop-one__content -->
 								</div><!-- /.shop-one__item -->
-							</div><!-- /.col-md-6 col-lg-3 -->
+							</div>
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
 									<div class="shop-one__image" style="background-color:#304332">
@@ -186,7 +191,7 @@
 										</div><!-- /.shop-one__rating -->
 									</div><!-- /.shop-one__content -->
 								</div><!-- /.shop-one__item -->
-							</div><!-- /.col-md-6 col-lg-3 -->
+							</div>
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
 									<div class="shop-one__image" style="background-color:#304332">
@@ -208,7 +213,7 @@
 										</div><!-- /.shop-one__rating -->
 									</div><!-- /.shop-one__content -->
 								</div><!-- /.shop-one__item -->
-							</div><!-- /.col-md-6 col-lg-3 -->
+							</div>
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
 									<div class="shop-one__image" style="background-color:#304332">
@@ -230,7 +235,7 @@
 										</div><!-- /.shop-one__rating -->
 									</div><!-- /.shop-one__content -->
 								</div><!-- /.shop-one__item -->
-							</div><!-- /.col-md-6 col-lg-3 -->
+							</div>
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item">
 									<div class="shop-one__image" style="background-color:#304332">
@@ -251,7 +256,7 @@
 										</div><!-- /.shop-one__rating -->
 									</div><!-- /.shop-one__content -->
 								</div><!-- /.shop-one__item -->
-							</div><!-- /.col-md-6 col-lg-3 -->
+							</div>
 							<div class="col-md-6 col-lg-4">
 								<div class="shop-one__item" >
 									<div class="shop-one__image" style="background-color:#304332">
@@ -273,11 +278,12 @@
 										</div><!-- /.shop-one__rating -->
 									</div><!-- /.shop-one__content -->
 								</div><!-- /.shop-one__item -->
-							</div>
+							</div> --}}
 						</div><!-- /.row -->
 					</div><!-- /.col-lg-3 -->
 				</div><!-- /.row -->
-			</div><!-- /.container -->
+            </div>
+
 		</section><!-- /.shop-one -->
 
 

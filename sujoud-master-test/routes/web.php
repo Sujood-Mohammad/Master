@@ -1,9 +1,12 @@
 <?php
 
+use App\Http\Controllers\CartController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,26 +17,34 @@ use App\Http\Controllers\CategoryController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/', function () {
-    return view('Pages/index');
-});
 Route::get('/about', function () {
     return view('Pages.about');
-});
-Route::get('/shop', function () {
-    return view('Pages.shop');
 });
 Route::get('/contact', function () {
     return view('Pages.contact');
 });
-Route::get('/cart', function () {
-    return view('Pages.cart');
-});
-Route::get('/product', function () {
+
+
+
+
+
+Route::get('/product/{id}', [ProductController::class, 'showproducts']);
+// Route::get('/shop', function () {
+//     return view('Pages.shop');
+// });
+
+Route::get('/cart', [CartController::class, 'index']);
+// Route::get('/cart', function () {
+//     return view('Pages.cart');
+// });
+
+Route::get('/productdetails', function () {
     return view('Pages.product-details');
 });
 Route::get('/checkout', function () {
@@ -49,6 +60,6 @@ Route::name('admin.')->prefix('admin')->middleware(['auth', 'role'])->group(func
     })->name('admin');
     Route::get('/show-result/{exam}/{id}', [UserController::class, 'showResult'])->name('show-result');
     Route::resource('users', UserController::class);
-    Route::resource('exams', ExamController::class);
+    Route::resource('products', ProductController::class);
     Route::resource('categories', CategoryController::class);
 });

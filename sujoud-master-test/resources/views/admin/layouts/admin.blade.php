@@ -57,10 +57,10 @@
                                 <span>Categories</span>
                             </a>
                         </li>
-                        <li class="sidebar-item @if ($pageName == 'Manage Exams') active @endif">
-                            <a href="/admin/exams" class='sidebar-link'>
+                        <li class="sidebar-item @if ($pageName == 'Manage Products') active @endif">
+                            <a href="/admin/products" class='sidebar-link'>
                                 <i class="fas fa-book"></i>
-                                <span>Exams</span>
+                                <span>Products</span>
                             </a>
                         </li>
                         <li class="sidebar-item">

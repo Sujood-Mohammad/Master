@@ -3,7 +3,6 @@
 @extends('Layout.master')
 
 
-
 @section('content')
 
 
@@ -367,93 +366,28 @@
                     <h2 class="sec-title__title">Services We Offer</h2>
                 </div>
                 <div class="row">
-                    <!--Start Single Services One-->
+                   @foreach($data as $values)
+
                     <div class="col-xl-4 col-lg-6 col-md-6  wow fadeInLeft" data-wow-delay="0ms"
                         data-wow-duration="1000ms">
                         <div class="services-one__single">
                             <div class="services-one__single-img">
                                 <div class="services-one__single-img-inner">
-                                    <img src="assets/images/services/services-v1-img1.jpg" alt="" />
+                                    <img src="{{ asset('img/'.$values->image)}}" alt="" style="height: 330px"/>
                                 </div>
                                 <div class="services-one__single-img-icon">
                                     <span class="icon-agriculture"></span>
                                 </div>
                             </div>
                             <div class="services-one__single-content text-center">
-                                <h3><a href="services-details.html">Gardening Tools</a></h3>
-                                {{-- <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p> --}}
-                                <a href="services-details.html" class="read-more-btn"><span
+                                <h3><a href="services-details.html">{{$values->name}}</a></h3>
+                              <p>{{$values->description}}</p>
+                                <a href="/product/id={{$values->id}}" class="read-more-btn"><span
                                         class="icon-right-arrow-2"></span></a>
                             </div>
                         </div>
                     </div>
-                    <!--End Single Services One-->
-
-                    <!--Start Single Services One-->
-                    <div class="col-xl-4 col-lg-6 col-md-6  wow fadeInLeft" data-wow-delay="100ms"
-                        data-wow-duration="1000ms">
-                        <div class="services-one__single">
-                            <div class="services-one__single-img">
-                                <div class="services-one__single-img-inner">
-                                    <img src="assets/images/services/catagory1.jpg" height="301.21px" alt="" />
-                                </div>
-                                <div class="services-one__single-img-icon">
-                                    <span class="icon-harvest"></span>
-                                </div>
-                            </div>
-                            <div class="services-one__single-content text-center">
-                                <h3><a href="services-details.html">Plant Seedlings</a></h3>
-                                {{-- <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p> --}}
-                                <a href="services-details.html" class="read-more-btn"><span
-                                        class="icon-right-arrow-2"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Services One-->
-
-                    <!--Start Single Services One-->
-                    <div class="col-xl-4 col-lg-6 col-md-6  wow fadeInRight" data-wow-delay="0ms"
-                        data-wow-duration="1000ms">
-                        <div class="services-one__single">
-                            <div class="services-one__single-img">
-                                <div class="services-one__single-img-inner">
-                                    <img src="assets/images/services/category2.jpg" height="301.21px" alt="" />
-                                </div>
-                                <div class="services-one__single-img-icon">
-                                    <span class="icon-growth"></span>
-                                </div>
-                            </div>
-                            <div class="services-one__single-content text-center">
-                                <h3><a href="services-details.html">Agricultural Machines</a></h3>
-                                {{-- <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p> --}}
-                                <a href="services-details.html" class="read-more-btn"><span
-                                        class="icon-right-arrow-2"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Services One-->
-
-                    {{-- <!--Start Single Services One-->
-                    <div class="col-xl-3 col-lg-6 col-md-6  wow fadeInRight" data-wow-delay="100ms"
-                        data-wow-duration="1000ms">
-                        <div class="services-one__single">
-                            <div class="services-one__single-img">
-                                <div class="services-one__single-img-inner">
-                                    <img src="assets/images/services/services-v1-img4.jpg" alt="" />
-                                </div>
-                                <div class="services-one__single-img-icon">
-                                    <span class="icon-dairy-products"></span>
-                                </div>
-                            </div>
-                            <div class="services-one__single-content text-center">
-                                <h3><a href="services-details.html">Dairy<br> Products</a></h3>
-                                <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
-                                <a href="services-details.html" class="read-more-btn"><span
-                                        class="icon-right-arrow-2"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Services One--> --}}
+                    @endforeach
                 </div>
             </div>
         </section>

@@ -108,7 +108,7 @@
 
 
                                             <li class="dropdown">
-                                                <a href="/shop">Shop</a>
+                                                <a href="/product">Shop</a>
 
                                             </li>
 
