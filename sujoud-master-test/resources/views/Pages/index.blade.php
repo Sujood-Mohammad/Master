@@ -26,8 +26,7 @@
                     <!--Start Single Swiper Slide-->
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url({{ asset(assets/images/backgrounds/main-slider-v2-2.jpg)}});">
-                        </div>
+                            style="background-image: url('{{ asset("assets/images/backgrounds/main-slider-v2-2.jpg")}}');"></div>
                         <div class="image-layer-overlay"></div>
                         <div class="container">
                             <div class="row">
@@ -51,7 +50,7 @@
                     <!--Start Single Swiper Slide-->
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url({{ asset(assets/images/backgrounds/slider-3.jpg)}});"></div>
+                            style="background-image: url('{{ asset("assets/images/backgrounds/slider-3.jpg")}}');"></div>
                         <div class="image-layer-overlay"></div>
                         <div class="container">
                             <div class="row">
@@ -75,7 +74,7 @@
                     <!--Start Single Swiper Slide-->
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url({{ asset(assets/images/backgrounds/main-slider-v2-3.jpg)}});"></div>
+                            style="background-image: url('{{ asset("assets/images/backgrounds/main-slider-v2-3.jpg")}}');"></div>
                         <div class="image-layer-overlay"></div>
                         <div class="container">
                             <div class="row">
@@ -197,7 +196,7 @@
                                         <span class="icon-phone-call-2"></span>
                                     </div>
                                     <div class="inner">
-                                        <img src="{{ asset(assets/images/resources/features-v2-call-box-img.jpg)}}" alt="" />
+                                        <img src="{{ asset("assets/images/resources/features-v2-call-box-img.jpg")}}" alt="" />
                                     </div>
                                 </div>
                                 <div class="title">
@@ -211,157 +210,12 @@
             </div>
         </section>
         <!--Features One End-->
-
-
-        {{-- <!--About Two Start-->
-        <section class="about-two">
-            <div class="about-two__bg"><img src="{{ asset(assets/images/backgrounds/about-v2-bg.png" alt="" /></div>
-            <div class="container">
-                <div class="row">
-                    <!--Start About Two Img Box-->
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="about-two__img-box clearfix">
-                            <div class="about-two__img-box__shape"></div><!-- /.about-two__img-box__shape -->
-                            <div class="about-two__img-box-img1">
-                                <div class="about-two__img-box-img1-inner">
-                                    <img src="{{ asset(assets/images/about/about-v2-img1.jpg" alt="" />
-                                </div>
-                            </div>
-                            <div class="about-two__img-box-img2">
-                                <div class="about-two__img-box-img2__shape"></div>
-                                <!-- /.about-two__img-box-img2__shape -->
-                                <div class="logo"><img src="{{ asset(assets/images/resources/about-v2-logo.png" alt="" /></div>
-                                <div class="about-two__img-box-img2-inner">
-                                    <img src="{{ asset(assets/images/about/about-v2-img2.jpg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End About Two Img Box-->
-
-                    <!--Start About Two Content Box-->
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="about-two__content-box">
-                            <div class="sec-title">
-                                <div class="icon">
-                                    <img src="{{ asset(assets/images/resources/sec-title-icon1.png" alt="">
-                                </div>
-                                <span class="sec-title__tagline">get to know about us</span>
-                                <h2 class="sec-title__title">We’re Leader in Agriculture <br>Market</h2>
-                            </div>
-                            <p class="about-two__content-box-text">There are many variations of passages of available
-                                but the majority have suffered alteration in some form.</p>
-                            <div class="about-two__content-box-list">
-                                <div class="row">
-                                    <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <div class="about-two__content-box-list-single">
-                                            <ul>
-                                                <li>
-                                                    <div class="icon">
-                                                        <i class="fa fa-check-circle" aria-hidden="true"></i>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Lorem is not random text</p>
-                                                    </div>
-                                                </li>
-
-                                                <li>
-                                                    <div class="icon">
-                                                        <i class="fa fa-check-circle" aria-hidden="true"></i>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Evolved over the years</p>
-                                                    </div>
-                                                </li>
-
-                                                <li>
-                                                    <div class="icon">
-                                                        <i class="fa fa-check-circle" aria-hidden="true"></i>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Generator on the Internet</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <div class="about-two__content-box-list-single">
-                                            <ul>
-                                                <li>
-                                                    <div class="icon">
-                                                        <i class="fa fa-check-circle" aria-hidden="true"></i>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>If you are going to use</p>
-                                                    </div>
-                                                </li>
-
-                                                <li>
-                                                    <div class="icon">
-                                                        <i class="fa fa-check-circle" aria-hidden="true"></i>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Making this the first true</p>
-                                                    </div>
-                                                </li>
-
-                                                <li>
-                                                    <div class="icon">
-                                                        <i class="fa fa-check-circle" aria-hidden="true"></i>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Over 50 years experience</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="about-two__progress">
-                                <!--Start Digital Factory One Progress Single-->
-                                <div class="about-two__progress-single">
-                                    <h4 class="about-two__progress-title">Agriculture</h4>
-                                    <div class="bar">
-                                        <div class="bar-inner count-bar" data-percent="78%">
-                                            <div class="count-text">78%</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Digital Factory One Progress Single-->
-
-                                <!--Start Digital Factory One Progress Single-->
-                                <div class="about-two__progress-single">
-                                    <h4 class="about-two__progress-title">Organic</h4>
-                                    <div class="bar">
-                                        <div class="bar-inner count-bar" data-percent="67%">
-                                            <div class="count-text">67%</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Digital Factory One Progress Single-->
-                            </div>
-
-                            <div class="about-two__author">
-                                <h2>Mike Hardson<span> CEO Agriox</span></h2>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End About Two Content Box-->
-                </div>
-            </div>
-        </section>
-        <!--About Two End--> --}}
-
         <!--Services One Start-->
         <section class="services-one services-one--has-top-bg">
             <div class="container">
                 <div class="sec-title text-center">
                     <div class="icon">
-                        <img src="{{ asset(assets/images/resources/sec-title-icon1.png)}}" alt="">
+                        <img src="{{ asset('assets/images/resources/sec-title-icon1.png')}}" alt="">
                     </div>
                     <span class="sec-title__tagline">What we’re doing</span>
                     <h2 class="sec-title__title">Services We Offer</h2>
@@ -414,7 +268,7 @@
                                         Evolved over the 30 years
                                     </li>
                                 </ul><!-- /.cta-two__list -->
-                                <img src="{{ asset(assets/images/resources/cta-two-1-1.png)}}" alt="">
+                                <img src="{{ asset('assets/images/resources/cta-two-1-1.png')}}" alt="">
                             </div><!-- /.cta-two__right -->
                         </div><!-- /.col-lg-6 -->
                     </div><!-- /.row -->
@@ -427,7 +281,7 @@
                 <div class="row">
                     <div class="col-xl-6">
                         <div class="features-three__image clearfix">
-                            <img src="{{ asset(assets/images/resources/features-3-1-1.jpg)}}" alt="">
+                            <img src="{{ asset('assets/images/resources/features-3-1-1.jpg')}}" alt="">
                             <div class="features-three__image__caption">
                                 <i class="icon-growth"></i>
                                 <h3>Agriculture
@@ -440,7 +294,7 @@
                         <div class="features-three__content">
                             <div class="sec-title text-left">
                                 <div class="icon">
-                                    <img src="{{ asset(assets/images/resources/sec-title-icon1.png)}}" alt="">
+                                    <img src="{{ asset('assets/images/resources/sec-title-icon1.png')}}" alt="">
                                 </div>
                                 <span class="sec-title__tagline">Company benefits</span>
                                 <h2 class="sec-title__title">Why Choose Falah
@@ -489,7 +343,7 @@
                         <div class="faq-one__content">
                             <div class="sec-title">
                                 <div class="icon">
-                                    <img src="{{ asset(assets/images/resources/sec-title-icon2.png)}}" alt="">
+                                    <img src="{{ asset('assets/images/resources/sec-title-icon2.png')}}" alt="">
                                 </div>
                                 <span class="sec-title__tagline">Recently completed work</span>
                                 <h2 class="sec-title__title">How Can We Help?</h2>
@@ -498,7 +352,7 @@
                                 <div class="row">
                                     <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="faq-one__inner-content-left">
-                                            <img src="{{ asset(assets/images/resources/faq-1-1.png)}}" alt="">
+                                            <img src="{{ asset('assets/images/resources/faq-1-1.png')}}" alt="">
                                             <p>Voluptate velit essect quis<br> tempor orci. Suspendisse<br> that potenti
                                                 faucibus.</p>
                                         </div>
@@ -645,7 +499,7 @@
             <div class="container">
                 <div class="sec-title text-center">
                     <div class="icon">
-                        <img src="{{ asset(assets/images/resources/sec-title-icon1.png)}}" alt="">
+                        <img src="{{ asset('assets/images/resources/sec-title-icon1.png')}}" alt="">
                     </div>
                     <span class="sec-title__tagline">Recently completed work</span>
                     <h2 class="sec-title__title">Explore Our Projects</h2>
@@ -657,7 +511,7 @@
                             <div class="projects-one__single wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="projects-one__single-img">
-                                    <img src="{{ asset(assets/images/project/projects-v2-img1.jpg)}}" alt="" />
+                                    <img src="{{ asset('assets/images/project/projects-v2-img1.jpg')}}" alt="" />
                                     <div class="overlay-content">
                                         <p>Agriculture</p>
                                         <h3><a href="projects-details.html">Harvest Innovations</a></h3>
@@ -670,7 +524,7 @@
                             <div class="projects-one__single wow fadeInUp" data-wow-delay="200ms"
                                 data-wow-duration="1500ms">
                                 <div class="projects-one__single-img">
-                                    <img src="{{ asset(assets/images/project/projects-v2-img2.jpg)}}" alt="" />
+                                    <img src="{{ asset('assets/images/project/projects-v2-img2.jpg')}}" alt="" />
                                     <div class="overlay-content">
                                         <p>Agriculture</p>
                                         <h3><a href="projects-details.html">Harvest Innovations</a></h3>
@@ -683,7 +537,7 @@
                             <div class="projects-one__single wow fadeInUp" data-wow-delay="400ms"
                                 data-wow-duration="1500ms">
                                 <div class="projects-one__single-img">
-                                    <img src="{{ asset(assets/images/project/projects-v2-img3.jpg)}}" alt="" />
+                                    <img src="{{ asset('assets/images/project/projects-v2-img3.jpg')}}" alt="" />
                                     <div class="overlay-content">
                                         <p>Agriculture</p>
                                         <h3><a href="projects-details.html">Harvest Innovations</a></h3>
@@ -696,7 +550,7 @@
                             <div class="projects-one__single wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="projects-one__single-img">
-                                    <img src="{{ asset(assets/images/project/projects-v2-img1.jpg)}}" alt="" />
+                                    <img src="{{ asset('assets/images/project/projects-v2-img1.jpg')}}" alt="" />
                                     <div class="overlay-content">
                                         <p>Agriculture</p>
                                         <h3><a href="projects-details.html">Harvest Innovations</a></h3>
@@ -709,7 +563,7 @@
                             <div class="projects-one__single wow fadeInUp" data-wow-delay="200ms"
                                 data-wow-duration="1500ms">
                                 <div class="projects-one__single-img">
-                                    <img src="{{ asset(assets/images/project/projects-v2-img2.jpg)}}" alt="" />
+                                    <img src="{{ asset('assets/images/project/projects-v2-img2.jpg')}}" alt="" />
                                     <div class="overlay-content">
                                         <p>Agriculture</p>
                                         <h3><a href="projects-details.html">Harvest Innovations</a></h3>
@@ -722,7 +576,7 @@
                             <div class="projects-one__single wow fadeInUp" data-wow-delay="400ms"
                                 data-wow-duration="1500ms">
                                 <div class="projects-one__single-img">
-                                    <img src="{{ asset(assets/images/project/projects-v2-img3.jpg)}}" alt="" />
+                                    <img src="{{ asset('assets/images/project/projects-v2-img3.jpg')}}" alt="" />
                                     <div class="overlay-content">
                                         <p>Agriculture</p>
                                         <h3><a href="projects-details.html">Harvest Innovations</a></h3>
@@ -735,7 +589,7 @@
                             <div class="projects-one__single wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="projects-one__single-img">
-                                    <img src="{{ asset(assets/images/project/projects-v2-img1.jpg)}}" alt="" />
+                                    <img src="{{ asset('assets/images/project/projects-v2-img1.jpg')}}" alt="" />
                                     <div class="overlay-content">
                                         <p>Agriculture</p>
                                         <h3><a href="projects-details.html">Harvest Innovations</a></h3>
@@ -748,7 +602,7 @@
                             <div class="projects-one__single wow fadeInUp" data-wow-delay="200ms"
                                 data-wow-duration="1500ms">
                                 <div class="projects-one__single-img">
-                                    <img src="{{ asset(assets/images/project/projects-v2-img2.jpg)}}" alt="" />
+                                    <img src="{{ asset('assets/images/project/projects-v2-img2.jpg')}}" alt="" />
                                     <div class="overlay-content">
                                         <p>Agriculture</p>
                                         <h3><a href="projects-details.html">Harvest Innovations</a></h3>
@@ -761,7 +615,7 @@
                             <div class="projects-one__single wow fadeInUp" data-wow-delay="400ms"
                                 data-wow-duration="1500ms">
                                 <div class="projects-one__single-img">
-                                    <img src="{{ asset(assets/images/project/projects-v2-img3.jpg)}}" alt="" />
+                                    <img src="{{ asset('assets/images/project/projects-v2-img3.jpg')}}" alt="" />
                                     <div class="overlay-content">
                                         <p>Agriculture</p>
                                         <h3><a href="projects-details.html">Harvest Innovations</a></h3>
@@ -784,7 +638,7 @@
                 <div class="row">
                     <div class="col-xl-6">
                         <div class="story-one__img"
-                            style="background-image: url({{ asset(assets/images/resources/story-v1-img.jpg)}});">
+                            style="background-image: url({{ asset('assets/images/resources/story-v1-img.jpg')}});">
                             <div class="story-one__img__line float-bob-y"></div><!-- /.story-one__img__line -->
                             <h3>#Agriculture <br>
                                 Matters</h3>
@@ -792,11 +646,11 @@
                     </div>
                     <div class="col-xl-6">
                         <div class="story-one__counters">
-                            <div class="story-one__bg"><img src="{{ asset(assets/images/backgrounds/story-v1-bg.png)}}" alt="" />
+                            <div class="story-one__bg"><img src="{{ asset('assets/images/backgrounds/story-v1-bg.png')}}" alt="" />
                             </div>
                             <div class="sec-title">
                                 <div class="icon">
-                                    <img src="{{ asset(assets/images/resources/sec-title-icon1.png)}}" alt="">
+                                    <img src="{{ asset('assets/images/resources/sec-title-icon1.png')}}" alt="">
                                 </div>
                                 <span class="sec-title__tagline">Agriox Since 1986</span>
                                 <h2 class="sec-title__title">Small Agricultue Story</h2>
@@ -838,158 +692,6 @@
         </section>
         <!--Story One End-->
 
-        <!--Meet Farmers One Start-->
-        {{-- <section class="meet-farmers-one">
-            <div class="container">
-                <div class="sec-title text-center">
-                    <div class="icon">
-                        <img src="{{ asset(assets/images/resources/sec-title-icon1.png" alt="">
-                    </div>
-                    <span class="sec-title__tagline">professional people</span>
-                    <h2 class="sec-title__title">Meet the Farmers</h2>
-                </div>
-                <div class="row">
-                    <!--Start Single Meet Farmers One-->
-                    <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                        <div class="meet-farmers-one__single">
-                            <div class="meet-farmers-one__single-img">
-                                <img src="{{ asset(assets/images/resources/meet-farmers-v1-img1.jpg" alt="" />
-                            </div>
-                            <div class="meet-farmers-one__single-title text-center">
-                                <p>Farmer</p>
-                                <h2><a href="farmers.html">Kevin Martin</a></h2>
-                                <div class="social-link">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!--End Single Meet Farmers One-->
-
-                    <!--Start Single Meet Farmers One-->
-                    <div class="col-xl-3 col-lg-6  wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
-                        <div class="meet-farmers-one__single">
-                            <div class="meet-farmers-one__single-img">
-                                <img src="{{ asset(assets/images/resources/meet-farmers-v1-img2.jpg" alt="" />
-
-                            </div>
-                            <div class="meet-farmers-one__single-title text-center">
-                                <p>Farmer</p>
-                                <h2><a href="farmers.html">Christine Eve</a></h2>
-                                <div class="social-link">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Meet Farmers One-->
-
-                    <!--Start Single Meet Farmers One-->
-                    <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
-                        <div class="meet-farmers-one__single">
-                            <div class="meet-farmers-one__single-img">
-                                <img src="{{ asset(assets/images/resources/meet-farmers-v1-img3.jpg" alt="" />
-
-                            </div>
-                            <div class="meet-farmers-one__single-title text-center">
-                                <p>Farmer</p>
-                                <h2><a href="farmers.html">Mike Hardson</a></h2>
-                                <div class="social-link">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Meet Farmers One-->
-
-                    <!--Start Single Meet Farmers One-->
-                    <div class="col-xl-3 col-lg-6  wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-                        <div class="meet-farmers-one__single">
-                            <div class="meet-farmers-one__single-img">
-                                <img src="{{ asset(assets/images/resources/meet-farmers-v1-img4.jpg" alt="" />
-
-                            </div>
-                            <div class="meet-farmers-one__single-title text-center">
-                                <p>Farmer</p>
-                                <h2><a href="farmers.html">Jessica Brown</a></h2>
-                                <div class="social-link">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Meet Farmers One-->
-                </div>
-            </div>
-        </section> --}}
-        <!--Meet Farmers One End-->
-
-
-
-        <!--Video One Start-->
-        {{-- <section class="video-one video-one--two jarallax clearfix" data-jarallax data-speed="0.2"
-            data-imgPosition="50% 0%" style="background-image: url({{ asset(assets/images/backgrounds/video-one-bg.jpg);">
-            <div class="video-one-border"></div>
-            <div class="video-one-border video-one-border-two"></div>
-            <div class="video-one-border video-one-border-three"></div>
-            <div class="video-one-border video-one-border-four"></div>
-            <div class="video-one-border video-one-border-five"></div>
-            <div class="video-one-border video-one-border-six"></div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="video-one__wrpper">
-                            <div class="video-one__left">
-                                <div class="video-one__leaf"></div><!-- /.video-one__leaf -->
-                                <h2 class="video-one__title">Agriculture Matters to <br>the Future of Development</h2>
-                                <div class="video-one__btn">
-                                    <a href="#" class="thm-btn">Discover more</a>
-                                </div>
-                            </div>
-                            <div class="video-one__right">
-                                <div class="icon wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                    <a class="video-popup" title=" Video"
-                                        href="https://www.youtube.com/watch?v=8DP4NgupAhI">
-                                        <span class="icon-play-button-1"></span>
-                                    </a>
-                                    <span class="border-animation border-1"></span>
-                                    <span class="border-animation border-2"></span>
-                                    <span class="border-animation border-3"></span>
-                                </div>
-                                <div class="title">
-                                    <h2>Watch the video</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-        <!--Video One End-->
-
-
         <!--Blog Two Start-->
         <section class="blog-two">
             <div class="container">
@@ -1000,7 +702,7 @@
                             <div class="blog-two__left-bg"></div>
                             <div class="sec-title">
                                 <div class="icon">
-                                    <img src="{{ asset(assets/images/resources/sec-title-icon1.png)}}" alt="">
+                                    <img src="{{ asset('assets/images/resources/sec-title-icon1.png')}}" alt="">
                                 </div>
                                 <span class="sec-title__tagline">from the blog</span>
                                 <h2 class="sec-title__title">Latest News &amp;<br> Articles</h2>
@@ -1022,7 +724,7 @@
                                 <!--Start Single Blog One-->
                                 <div class="blog-one__single">
                                     <div class="blog-one__single-img">
-                                        <img src="{{ asset(assets/images/blog/blog-v1-img1.jpg)}}" alt="" />
+                                        <img src="{{ asset('assets/images/blog/blog-v1-img1.jpg')}}" alt="" />
                                         <div class="date-box">
                                             <span>30 July, 2021</span>
                                         </div>
@@ -1045,7 +747,7 @@
                                 <!--Start Single Blog One-->
                                 <div class="blog-one__single">
                                     <div class="blog-one__single-img">
-                                        <img src="{{ asset(assets/images/blog/blog-v1-img2.jpg)}}" alt="" />
+                                        <img src="{{ asset('assets/images/blog/blog-v1-img2.jpg')}}" alt="" />
                                         <div class="date-box">
                                             <span>30 July, 2021</span>
                                         </div>
@@ -1068,7 +770,7 @@
                                 <!--Start Single Blog One-->
                                 <div class="blog-one__single">
                                     <div class="blog-one__single-img">
-                                        <img src="{{ asset(assets/images/blog/blog-v1-img3.jpg)}}" alt="" />
+                                        <img src="{{ asset('assets/images/blog/blog-v1-img3.jpg')}}" alt="" />
                                         <div class="date-box">
                                             <span>30 July, 2021</span>
                                         </div>
@@ -1128,34 +830,34 @@
             }}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="{{ asset(assets/images/resources/Company-Logos-v1-logo1.png)}}" alt="">
+                            <img src="{{ asset('assets/images/resources/Company-Logos-v1-logo1.png')}}" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
-                            <img src="{{ asset(assets/images/resources/Company-Logos-v1-logo1.png)}}" alt="">
+                            <img src="{{ asset('assets/images/resources/Company-Logos-v1-logo1.png')}}" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
-                            <img src="{{ asset(assets/images/resources/Company-Logos-v1-logo1.png)}}" alt="">
+                            <img src="{{ asset('assets/images/resources/Company-Logos-v1-logo1.png')}}" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
-                            <img src="{{ asset(assets/images/resources/Company-Logos-v1-logo1.png)}}" alt="">
+                            <img src="{{ asset('assets/images/resources/Company-Logos-v1-logo1.png')}}" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
-                            <img src="{{ asset(assets/images/resources/Company-Logos-v1-logo1.png)}}" alt="">
+                            <img src="{{ asset('assets/images/resources/Company-Logos-v1-logo1.png')}}" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
-                            <img src="{{ asset(assets/images/resources/Company-Logos-v1-logo1.png)}}" alt="">
+                            <img src="{{ asset('assets/images/resources/Company-Logos-v1-logo1.png')}}" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
-                            <img src="{{ asset(assets/images/resources/Company-Logos-v1-logo1.png)}}" alt="">
+                            <img src="{{ asset('assets/images/resources/Company-Logos-v1-logo1.png')}}" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
-                            <img src="{{ asset(assets/images/resources/Company-Logos-v1-logo1.png)}}" alt="">
+                            <img src="{{ asset('assets/images/resources/Company-Logos-v1-logo1.png')}}" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
-                            <img src="{{ asset(assets/images/resources/Company-Logos-v1-logo1.png)}}" alt="">
+                            <img src="{{ asset('assets/images/resources/Company-Logos-v1-logo1.png')}}" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
-                            <img src="{{ asset(assets/images/resources/Company-Logos-v1-logo1.png)}}" alt="">
+                            <img src="{{ asset('assets/images/resources/Company-Logos-v1-logo1.png')}}" alt="">
                         </div><!-- /.swiper-slide -->
                     </div>
                 </div>

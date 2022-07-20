@@ -16,34 +16,33 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=Shadows+Into+Light&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
-    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
-    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
-    <link rel="stylesheet" href="assets/vendors/icomoon-icons/style.css">
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css" />
-    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="assets/vendors/twentytwenty/twentytwenty.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/animate/animate.min')}}.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/animate/custom-anim')}}ate.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/bootstrap/css/boots')}}trap.min.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/fontawesome/css/all')}}.min.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/jarallax/jarallax.c')}}ss" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/jquery-magnific-pop')}}up/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/nouislider/nouislid')}}er.min.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/nouislider/nouislid')}}er.pips.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/odometer/odometer.m')}}in.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/swiper/swiper.min.c')}}ss" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/icomoon-icons/style')}}.css">
+    <link rel="stylesheet" href="{{ asset('assets/vendors/tiny-slider/tiny-sl')}}ider.min.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/reey-font/styleshee')}}t.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/owl-carousel/owl.ca')}}rousel.min.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/owl-carousel/owl.th')}}eme.default.min.css" />
+    <link rel="stylesheet" href="{{ asset('assets/vendors/twentytwenty/twenty')}}twenty.css" />
 
     <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/agriox.css" />
+    <link rel="stylesheet" href="{{ asset('assets/css/agriox.css')}}" />
 
-    <!-- RTL CSS -->
-    <link rel="stylesheet" href="assets/css/agriox-rtl.css">
+   
+    <link rel="stylesheet" href="{{ asset('assets/css/agriox-rtl.css')}}">
 
-    <!-- mode css -->
-    <link rel="stylesheet" id="jssMode" href="assets/css/modes/agriox-light.css">
+    <link rel="stylesheet" id="jssMode" href="{{ asset('assets/css/modes/agriox-light.css')}}">
 
     <!-- toolbar css -->
-    <link rel="stylesheet" href="assets/vendors/toolbar/css/toolbar.css">
+    <link rel="stylesheet" href="{{ asset('assets/vendors/toolbar/css/toolbar')}}.css">
     <link href="{{ asset('assets/css/login.css') }}" rel="stylesheet">
 
 </head>
@@ -92,8 +91,8 @@
                                     <div class="stricky-one-logo">
                                         <div class="logo">
                                             <a href="/">
-                                                <img src="assets/images/resources/falahD.png" width="115px" height="54" class="dark-logo" alt="">
-                                                <img src="assets/images/resources/falahW.png" width="115px" height="54" class="light-logo" alt="">
+                                                <img src="{{ asset('assets/images/resources/falahD.png')}}" width="115px" height="54" class="dark-logo" alt="">
+                                                <img src="{{ asset('assets/images/resources/falahW.png')}}" width="115px" height="54" class="light-logo" alt="">
                                             </a>
                                         </div>
                                     </div>

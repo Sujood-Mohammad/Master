@@ -35,6 +35,7 @@ Route::get('/contact', function () {
 
 
 Route::get('/product/{id}', [ProductController::class, 'showproducts']);
+Route::get('/product', [ProductController::class, 'show']);
 // Route::get('/shop', function () {
 //     return view('Pages.shop');
 // });

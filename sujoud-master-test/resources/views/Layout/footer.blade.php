@@ -5,14 +5,14 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="footer-one__top-wrapper">
-                                <div class="footer-one__bg"><img src="assets/images/backgrounds/footer-one-bg.png"
+                                <div class="footer-one__bg"><img src="{{ asset('assets/images/backgrounds/footer-one-bg.png')}}"
                                         alt="" /></div>
                                 <div class="row">
                                     <!--Start Footer Widget Column-->
                                     <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.1s">
                                         <div class="footer-widget__column footer-widget__about">
                                             <div class="footer-widget__about-logo">
-                                                <a href="index-main.html"><img src="assets/images/resources/falahW.png" width="115px" height="54" alt=""></a>
+                                                <a href="index-main.html"><img src="{{ asset('assets/images/resources/falahW.png')}}" width="115px" height="54" alt=""></a>
                                             </div>
                                             <p class="footer-widget__about-text">Lorem ipsum dolor sit amet consect etur
                                                 adi pisicing elit sed.</p>
@@ -35,7 +35,7 @@
                                             <ul class="footer-widget__news-list">
                                                 <li class="footer-widget__news-list-item">
                                                     <div class="footer-widget__news-list-item-img">
-                                                        <img src="assets/images/resources/footer-widget-news-img1.png"
+                                                        <img src="{{ asset('assets/images/resources/footer-widget-news-img1.png')}}"
                                                             alt="" />
                                                     </div>
                                                     <div class="footer-widget__news-list-item-title">
@@ -46,7 +46,7 @@
 
                                                 <li class="footer-widget__news-list-item">
                                                     <div class="footer-widget__news-list-item-img">
-                                                        <img src="assets/images/resources/footer-widget-news-img2.png"
+                                                        <img src="{{ asset('assets/images/resources/footer-widget-news-img2.png')}}"
                                                             alt="" />
                                                     </div>
                                                     <div class="footer-widget__news-list-item-title">
@@ -138,7 +138,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index-main.html" aria-label="logo image"><img src="assets/images/resources/mobilemenu_logo.png"
+                <a href="index-main.html" aria-label="logo image"><img src="{{ asset('assets/images/resources/mobilemenu_logo.png')}}"
                         width="155" alt="" /></a>
             </div>
             <!-- /.logo-box -->
@@ -191,28 +191,28 @@
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="icon-right-arrow-2"></i></a>
 
 
-    <script src="assets/vendors/jquery/jquery-3.5.1.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/odometer/odometer.min.js"></script>
-    <script src="assets/vendors/swiper/swiper.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendors/twentytwenty/twentytwenty.js"></script>
-    <script src="assets/vendors/twentytwenty/jquery.event.move.js"></script>
-    <script src="assets/vendors/parallax/parallax.min.js"></script>
-    <script src="assets/vendors/tilt.js/tilt.jquery.js"></script>
-
+    <script src="{{ asset('assets/vendors/jquery/jquery-3.5.1.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/jarallax/jarallax.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/jquery-appear/jquery.appear.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/jquery-validate/jquery.validate.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/nouislider/nouislider.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/odometer/odometer.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/swiper/swiper.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/tiny-slider/tiny-slider.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/wnumb/wNumb.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/wow/wow.js')}}"></script>
+    <script src="{{ asset('assets/vendors/isotope/isotope.js')}}"></script>
+    <script src="{{ asset('assets/vendors/countdown/countdown.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/owl-carousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/twentytwenty/twentytwenty.js')}}"></script>
+    <script src="{{ asset('assets/vendors/twentytwenty/jquery.event.move.js')}}"></script>
+    <script src="{{ asset('assets/vendors/parallax/parallax.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/tilt.js/tilt.jquery.js')}}"></script>
+'
 
     <script src="http://maps.google.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
 
@@ -221,11 +221,11 @@
 
 
     <!-- toolbar js -->
-    <script src="assets/vendors/toolbar/js/js.cookie.min.js"></script>
-    <script src="assets/vendors/toolbar/js/jQuery.style.switcher.min.js"></script>
-    <script src="assets/vendors/toolbar/js/toolbar.lang.js"></script>
+    <script src="{{ asset('assets/vendors/toolbar/js/js.cookie.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/toolbar/js/jQuery.style.switcher.min.js')}}"></script>
+    <script src="{{ asset('assets/vendors/toolbar/js/toolbar.lang.js')}}"></script>
     <script src="../../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit"></script>
-    <script src="assets/vendors/toolbar/js/toolbar.js"></script>
+    <script src="{{ asset('assets/vendors/toolbar/js/toolbar.js')}}"></script>
 
 
 </body>

@@ -20,9 +20,11 @@ class ProductController extends Controller
 
     public function showproducts($id)
     {
+
     $category = Category::findOrFail($id);
     $products = Product::where('category_id', $id)->get();
     return view('Pages.shop', compact('products', 'category'));
+    
     }
 
     // public function showproducts(Request $request)
@@ -79,9 +81,10 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
-        //
+        $products = Product::all();
+        return view('Pages.shop', compact('products'));
     }
 
     /**
