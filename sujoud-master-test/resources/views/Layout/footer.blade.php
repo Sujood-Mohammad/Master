@@ -212,12 +212,12 @@
     <script src="{{ asset('assets/vendors/twentytwenty/jquery.event.move.js')}}"></script>
     <script src="{{ asset('assets/vendors/parallax/parallax.min.js')}}"></script>
     <script src="{{ asset('assets/vendors/tilt.js/tilt.jquery.js')}}"></script>
-'
+
 
     <script src="http://maps.google.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
 
     <!-- template js -->
-    <script src="assets/js/agriox.js"></script>
+    <script src="{{asset('assets/js/agriox.js')}}"></script>
 
 
     <!-- toolbar js -->

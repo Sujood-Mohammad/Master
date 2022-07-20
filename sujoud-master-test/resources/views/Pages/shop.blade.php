@@ -5,7 +5,7 @@
 
 		<!--Page Header Start-->
 		<section class="page-header clearfix"
-			style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
+			style="background-image: url('{{asset("assets/images/backgrounds/page-header-bg.jpg")}}');">
 			<div class="container">
 				<div class="page-header__inner text-center clearfix">
 					<ul class="thm-breadcrumb">

@@ -36,7 +36,7 @@
     <!-- template styles -->
     <link rel="stylesheet" href="{{ asset('assets/css/agriox.css')}}" />
 
-   
+
     <link rel="stylesheet" href="{{ asset('assets/css/agriox-rtl.css')}}">
 
     <link rel="stylesheet" id="jssMode" href="{{ asset('assets/css/modes/agriox-light.css')}}">
@@ -66,7 +66,7 @@
     <!-- end style switcher -->
 
     <div class="preloader">
-        <img class="preloader__image" width="60" src="assets/images/loader.png" alt="" />
+        <img class="preloader__image" width="60" src="{{asset('assets/images/loader.png')}}" alt="" />
     </div> <!-- /.preloader -->
     <div class="page-wrapper">
 
@@ -78,8 +78,8 @@
                             <div class="main-header--one__bottom-middel">
                                 <div class="logo">
                                     <a href="/">
-                                        <img src="assets/images/resources/falahD.png" width="115px" height="54" alt="" class="light-logo" />
-                                        <img src="assets/images/resources/falahW.png" width="115px" height="54" class="dark-logo" alt="" />
+                                        <img src="{{asset('assets/images/resources/falahD.png')}}" width="115px" height="54" alt="" class="light-logo" />
+                                        <img src="{{asset('assets/images/resources/falahW.png')}}" width="115px" height="54" class="dark-logo" alt="" />
                                     </a>
                                 </div>
                             </div>
