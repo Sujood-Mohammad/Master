@@ -84,11 +84,11 @@
 									<div class="shop-one__image" style="background-color:#304332">
 										<span class="shop-one__sale">sale</span><!-- /.shop-one__sale -->
 										<img src="{{ asset('img/'.$values->product_image)}}" height="328px" alt="">
-										<a class="shop-one__cart" href="cart.html"><i
+										<a class="shop-one__cart" href="/carts/store"><i
 												class=" icon-shopping-cart"></i></a>
 									</div><!-- /.shop-one__image -->
 									<div class="shop-one__content text-center">
-										<h3 class="shop-one__title"><a href="/product">{{$values->product_name}}</a>
+										<h3 class="shop-one__title"><a href="{{url('productdetails/'.$category->id.'/'.$values->id)}}">{{$values->product_name}}</a>
 										</h3>
                                         <p>{{$values->product_description}}</p>
 										<p class="shop-one__price">{{$values->product_price}}</p><!-- /.shop-one__price -->

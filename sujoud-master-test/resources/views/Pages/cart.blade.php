@@ -6,7 +6,7 @@
 
 		<!--Page Header Start-->
 		<section class="page-header clearfix"
-			style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
+			style="background-image: url('{{asset("assets/images/backgrounds/page-header-bg.jpg")}}');">
 			<div class="container">
 				<div class="page-header__inner text-center clearfix">
 					<ul class="thm-breadcrumb">
@@ -34,26 +34,33 @@
 						</tr>
 					</thead>
 					<tbody>
+                      <?php $total = 0 ?>
+
+                      @if(session('cart'))
+
+                @foreach(session('cart') as $id => $details)
+
+                <?php $total += $details['price'] * $details['quantity'] ?>
 						<tr>
 							<td data-label="Item">
 								<div class="cart-table__item">
-									<img src="assets/images/update-14-09-2021/shop/cart-1-1.png" alt="">
-									<h3 class="cart-table__item__title">Brown Bread</h3>
+									<img src="{{ $details['photo'] }}" alt="">
+									<h3 class="cart-table__item__title">{{ $details['name'] }}</h3>
 									<!-- /.cart-table__item__title -->
 								</div><!-- /.cart-table__item -->
 							</td>
-							<td data-label="Price">$10.99</td>
+							<td data-label="Price">${{ $details['price'] }}</td>
 							<td data-label="Quantity">
 								<div class="quantity-box">
 									<button type="button" class="sub"><i class="fa fa-minus"></i></button>
-									<input type="number" id="product-2" value="1" />
+									<input type="number" id="product-2" value="{{ $details['quantity'] }}" />
 									<button type="button" class="add"><i class="fa fa-plus"></i></button>
 								</div>
 							</td>
-							<td data-label="Total">$10.99</td>
+							<td data-label="Total">{{ $total }}</td>
 							<td data-label="Remove"><span class="cart-table__close"></span></td>
 						</tr>
-						<tr>
+						{{-- <tr>
 							<td data-label="Item">
 								<div class="cart-table__item">
 									<img src="assets/images/update-14-09-2021/shop/cart-1-2.png" alt="">
@@ -71,7 +78,10 @@
 							</td>
 							<td data-label="Total">$10.99</td>
 							<td data-label="Remove"><span class="cart-table__close"></span></td>
-						</tr>
+						</tr> --}}
+
+                @endforeach
+                @endif
 					</tbody>
 				</table>
 			</div><!-- /.container -->
@@ -81,6 +91,7 @@
 		<section class="proceed-to-checkout">
 			<div class="container">
 				<div class="row">
+
 					<div class="col-lg-8">
 						<div class="proceed-to-checkout__cupon">
 							<input type="text" placeholder="Enter Coupon Code">
@@ -91,7 +102,7 @@
 						<ul class="list-unstyled proceed-to-checkout__list">
 							<li>
 								<span>Subtotal</span>
-								<i>$20.98 USD</i>
+								{{-- <i>${{ $details['price'] * $details['quantity'] }}</i> --}}
 							</li>
 							<li>
 								<span>Shipping Cost</span>
@@ -99,17 +110,19 @@
 							</li>
 							<li>
 								<span>Total</span>
-								<i>$20.98 USD</i>
+								<i>{{ $total }}</i>
 							</li>
+
 						</ul><!-- /.list-unstyled proceed-to-checkout__list -->
+
 						<div class="proceed-to-checkout__buttons">
-							<a href="cart.html" class="thm-btn proceed-to-checkout__checkout-btn">Update</a>
+							<a href="cart.html" class="thm-btn proceed-to-checkout__checkout-btn update-cart">Update</a>
 							<a href="/checkout" class="thm-btn ">Checkout</a>
 						</div><!-- /.proceed-to-checkout__buttons -->
 					</div><!-- /.col-lg-4 -->
+
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section><!-- /.proceed-to-checkout -->
-
 
 	@endsection

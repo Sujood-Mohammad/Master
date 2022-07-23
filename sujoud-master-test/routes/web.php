@@ -20,6 +20,7 @@ use App\Http\Controllers\HomeController;
 
 
 Auth::routes();
+Route::get('productdetails/{cate_id}/{prod_id}', [ProductController::class, 'productview']);
 
 Route::get('/', [HomeController::class, 'index']);
 
@@ -31,7 +32,7 @@ Route::get('/contact', function () {
 });
 
 
-
+Route::get('add-to-cart/{id}', 'CartController@addToCart');
 
 
 Route::get('/product/{id}', [ProductController::class, 'showproducts']);
@@ -41,9 +42,8 @@ Route::get('/product', [ProductController::class, 'show']);
 // });
 
 Route::get('/cart', [CartController::class, 'index']);
-// Route::get('/cart', function () {
-//     return view('Pages.cart');
-// });
+// Route::post('/cart/{id}', [CartController::class, 'show']);
+Route::resource('carts', CartController::class);
 
 Route::get('/productdetails', function () {
     return view('Pages.product-details');
@@ -59,7 +59,6 @@ Route::name('admin.')->prefix('admin')->middleware(['auth', 'role'])->group(func
     Route::get('/', function () {
         return view('admin.index');
     })->name('admin');
-    Route::get('/show-result/{exam}/{id}', [UserController::class, 'showResult'])->name('show-result');
     Route::resource('users', UserController::class);
     Route::resource('products', ProductController::class);
     Route::resource('categories', CategoryController::class);

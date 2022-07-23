@@ -6,12 +6,12 @@
 
 		<!--Page Header Start-->
 		<section class="page-header clearfix"
-			style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
+			style="background-image: url('{{asset("assets/images/backgrounds/page-header-bg.jpg")}}');">
 			<div class="container">
 				<div class="page-header__inner text-center clearfix">
 					<ul class="thm-breadcrumb">
-						<li><a href="index-main.html">Home</a></li>
-						<li><a href="shop.html">Shop</a></li>
+						<li><a href="/">Home</a></li>
+						<li><a href="/product">Shop</a></li>
 						<li>Product Details</li>
 					</ul>
 					<h2>Product Details</h2>
@@ -23,17 +23,18 @@
 		<section class="product-details">
 			<div class="container">
 				<div class="row">
+
 					<div class="col-lg-6">
 						<div class="product-details__image">
-							<img src="assets/images/update-14-09-2021/shop/shop4.jpg" width="570px" height="614px" alt="">
+							<img src="{{ asset('img/'.$products->product_image)}}" width="490px" height="550px" alt="">
 						</div><!-- /.product-details__image -->
 					</div><!-- /.col-lg-6 -->
 					<div class="col-lg-6">
 						<div class="product-details__content">
 							<div class="product-details__content__top">
-								<h3 class="product-details__content__name">Cultivator</h3>
+								<h3 class="product-details__content__name">{{$products->product_name}}</h3>
 								<!-- /.product-details__content__name -->
-								<div class="product-details__content__price">$1000.00</div>
+								<div class="product-details__content__price">{{$products->product_price}}</div>
 								<!-- /.product-details__content__price -->
 							</div><!-- /.product-details__content__top -->
 							<div class="product-details__content__rating">
@@ -51,8 +52,17 @@
 								<p>Aliquam hendrerit a augue insuscipit. Etiam aliquam massa quis des mauris commodo
 									venenatis ligula commodo leez sed blandit convallis dignissim onec vel pellentesque
 									neque.</p>
-								<p>REF. 4231/406 <br>Available in store</p>
+								{{-- <p>REF. 4231/406 <br>Available in store</p> --}}
 							</div><!-- /.product-details__content__text -->
+
+                            {{-- <div class="container">
+				<h2 class="product-content__title">Description :</h2><!-- /.product-content__title -->
+				<p>
+                    {{$products->product_description}}
+				</p>
+			</div><!-- /.container --> --}}
+
+
 							<div class="product-details__content__quantity">
 								<div class="product-details__content__quantity__text">Choose Quantity</div>
 								<!-- /.product-details__content__quantity__text -->
@@ -65,7 +75,7 @@
 
 							<div class="product-details__content__buttons">
 								<a href="cart.html" class="thm-btn cart-btn">Add to cart</a><!-- /.thm-btn -->
-								<a href="#" class="thm-btn wishlist-btn">add to wishlist</a>
+								{{-- <a href="#" class="thm-btn wishlist-btn">add to wishlist</a> --}}
 								<!-- /.thm-btn wishlist-btn -->
 							</div><!-- /.product-details__content__buttons -->
 							<div class="product-details__content__social">
@@ -85,16 +95,8 @@
 		<section class="product-content">
 			<div class="container">
 				<h2 class="product-content__title">Description</h2><!-- /.product-content__title -->
-				<p>Lorem ipsum dolor sit amet sectetur adipiscin elit cras feuiat antesed ces condimentum viverra duis
-					autue nim convallis id diam vitae duis egety dictum erosin dictum sem. Vivamus sed molestie sapien
-					aliquam et facilisis arcu dut molestie augue suspendisse sodales tortor nunced quis cto ligula
-					posuere cursus keuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-					fugiat nulla pariatur. Excepteur sint occaecated cupidatat non proident sunt in culpa qui officia
-					deserunt mollit anim id est laborum ivamus sed molestie sapien.</p>
-				<p>Aliquam et facilisis arcuut olestie augue. Suspendisse sodales tortor nunc quis auctor ligula posuere
-					cursus duis aute irure dolor in reprehenderit in voluptate velit esse cill doloreeu fugiat nulla
-					pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit
-					anim id est laborum. Vivaus sed delly molestie sapien. Aliquam et facilisis arcuut molestie augue.
+				<p>
+                    {{$products->product_description}}
 				</p>
 			</div><!-- /.container -->
 		</section><!-- /.product-content -->

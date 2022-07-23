@@ -24,7 +24,7 @@ class ProductController extends Controller
     $category = Category::findOrFail($id);
     $products = Product::where('category_id', $id)->get();
     return view('Pages.shop', compact('products', 'category'));
-    
+
     }
 
     // public function showproducts(Request $request)
@@ -83,8 +83,10 @@ class ProductController extends Controller
      */
     public function show()
     {
+        $category = Category::all();
         $products = Product::all();
-        return view('Pages.shop', compact('products'));
+        return view('Pages.shop', compact('products', 'category'));
+
     }
 
     /**
@@ -143,4 +145,25 @@ class ProductController extends Controller
         Product::destroy($id);
         return redirect('admin/products')->with('success', 'Deleted successfully');
     }
+
+    function productview($cate_id, $product_id)
+    {
+        if(Category::where('id', $cate_id)->exists())
+            
+        {
+           if(Product::where('id', $product_id)->exists())
+           {
+            $products = Product::where('id', $product_id)->first();
+            return view('Pages.product-details', compact('products'));
+
+           }
+           else{
+            return redirect('/')->with('error', 'Product not found');
+           }
+    }
+    else{
+        return redirect('/')->with('error', 'Category not found');
+    }
+    }
 }
+
